@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/entriesFragment">
+
+    <fragment
+        android:id="@+id/entriesFragment"
+        android:name="com.example.bitfitpart2.ui.entries.EntriesFragment"
+        android:label="Entries"
+        tools:layout="@layout/fragment_entries">
+
+        <action
+            android:id="@+id/action_entriesFragment_to_addEntryFragment"
+            app:destination="@id/addEntryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.bitfitpart2.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/addEntryFragment"
+        android:name="com.example.bitfitpart2.ui.entries.AddEntryFragment"
+        android:label="Add Entry"
+        tools:layout="@layout/fragment_add_entry" />
+</navigation>
