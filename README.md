@@ -26,7 +26,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![Kapture 2025-10-17 at 20 47 45](https://github.com/user-attachments/assets/22fcf6b2-158d-4878-a5f8-87a28c96f4fe)
+<img width="582" height="1290" alt="Kapture 2026-04-20 at 14 00 28" src="https://github.com/user-attachments/assets/b3d668fd-bdc4-4dbf-9e79-712c535c5a8b" />
+
 
 
 
